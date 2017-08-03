@@ -1,0 +1,656 @@
+{
+    "charts": [
+        {
+            "id": 0,
+            "name": "Web Programming",
+            "urlName": "chart---web-programming",
+            "disabledUrl": false,
+            "relatedTo_chart": [1,2,3,4,5,15,10,11],
+            "relatedTo_education": [0,1],
+            "relatedTo_project": [0,1,6]
+        },
+        {
+            "id": 1,
+            "name": "d3",
+            "disabledUrl": true,
+            "relatedTo_chart": [0,2,3,4,5,10,11,19],
+            "relatedTo_education": [0],
+            "relatedTo_project": [0,1]
+        },
+        {
+            "id": 2,
+            "name": "Angular2",
+            "disabledUrl": true,
+            "redirectedTo_project": 0,
+            "relatedTo_chart": [0,3,5],
+            "relatedTo_project": [0]
+        },
+        {
+            "id": 3,
+            "name": "Javascript/Typescript",
+            "disabledUrl": true,
+            "relatedTo_chart": [0,1,2,4,5,10,11],
+            "relatedTo_education": [0,1],
+            "relatedTo_project": [0,1,6]
+        },
+        {
+            "id": 4,
+            "name": "C# (Asp.Net)",
+            "disabledUrl": true,
+            "redirectedTo_education": 0,
+            "relatedTo_chart": [0,1,3,15,19],
+            "relatedTo_education": [0,1],
+            "relatedTo_project": [1,2]
+        },
+        {
+            "id": 5,
+            "name": "Html/Css",
+            "disabledUrl": true,
+            "relatedTo_chart": [0,1,2,3,4,10,11],
+            "relatedTo_education": [0,1],
+            "relatedTo_project": [0,1,6]
+        },
+        {
+            "id": 6,
+            "name": "Education",
+            "urlName": "chart---education",
+            "disabledUrl": false,
+            "relatedTo_chart": [7,8,9,10,11,21],
+            "relatedTo_education": [2,5],
+            "relatedTo_project": [5,7,8,9,10,18,20]
+        },
+        {
+            "id": 7,
+            "name": "Ed Research",
+            "disabledUrl": true,
+            "relatedTo_chart": [6,8,9,10],
+            "relatedTo_education": [2],
+            "relatedTo_project": [7,8,9,10]
+        },
+        {
+            "id": 8,
+            "name": "Maths Education",
+            "disabledUrl": true,
+            "relatedTo_chart": [6,7,9,10,17],
+            "relatedTo_education": [2],
+            "relatedTo_project": [7,8,9]
+        },
+        {
+            "id": 9,
+            "name": "Instructor/Tutor",
+            "disabledUrl": true,
+            "relatedTo_chart": [6,7,8],
+            "relatedTo_education": [2],
+            "relatedTo_project": [5,8,9,10,18,20]
+        },
+        {
+            "id": 10,
+            "name": "Design",
+            "urlName": "chart---design",
+            "disabledUrl": false,
+            "relatedTo_chart": [11,0,1,3,5,6,7],
+            "relatedTo_education": [0,2],
+            "relatedTo_project": [0,1,8,9]
+        },
+        {
+            "id": 11,
+            "name": "Information Design",
+            "disabledUrl": true,
+            "relatedTo_chart": [1,3,5,6,21],
+            "relatedTo_education": [0],
+            "relatedTo_project": [0,1]
+        },
+        {
+            "id": 12,
+            "name": "Other Programming",
+            "urlName": "chart---other-programming",
+            "disabledUrl": false,
+            "relatedTo_chart": [13,14,18,19,20],
+            "relatedTo_education": [1,3,4],
+            "relatedTo_project": [2,3,4,7,11,12,13,14,15,17,19,22]
+        },
+        {
+            "id": 13,
+            "name": "C",
+            "disabledUrl": true,
+            "relatedTo_chart": [12,17,18,19],
+            "relatedTo_education": [1,3],
+            "relatedTo_project": [3,7,17]
+        },
+        {
+            "id": 14,
+            "name": "MatLab",
+            "disabledUrl": true,
+            "relatedTo_chart": [12,17,18,19,20],
+            "relatedTo_education": [3,4],
+            "relatedTo_project": [11,13,14,15,19]
+        },
+        {
+            "id": 15,
+            "name": "Sql",
+            "disabledUrl": true,
+            "redirectedTo_education": 0,
+            "relatedTo_chart": [0,4],
+            "relatedTo_education": [0],
+            "relatedTo_project": [1]
+        },
+        {
+            "id": 16,
+            "name": "42 Pools",
+            "disabledUrl": true,
+            "redirectedTo_education": 1,
+            "relatedTo_chart": [0,12,13],
+            "relatedTo_education": [1],
+            "relatedTo_project": [2,4,6,7]
+        },
+        {
+            "id": 17,
+            "name": "Mathematics",
+            "urlName": "chart---mathematics",
+            "disabledUrl": false,
+            "relatedTo_chart": [18,19,20,8,13,14,1],
+            "relatedTo_education": [0,1,2,3,4],
+            "relatedTo_project": [0,1,3,8,11,13,14,15,16,17,19,22]
+        },
+        {
+            "id": 18,
+            "name": "Computational Mathematics",
+            "disabledUrl": true,
+            "relatedTo_chart": [12,13,14,19,20],
+            "relatedTo_education": [3,4],
+            "relatedTo_project": [3,11,12,13,14,15,17,19,22]
+        },
+        {
+            "id": 19,
+            "name": "Statistics",
+            "disabledUrl": true,
+            "relatedTo_chart": [1,4,13,14,15,17,18],
+            "relatedTo_education": [0,3,4],
+            "relatedTo_project": [1,11,12,16,17]
+        },
+        {
+            "id": 20,
+            "name": "Machine Learning",
+            "disabledUrl": true,
+            "redirectedTo_education": 4,
+            "relatedTo_chart": [14,17,18,19],
+            "relatedTo_education": [4],
+            "relatedTo_project": [11]
+        },
+        {
+            "id": 21,
+            "name": "Inner Consciousness",
+            "urlName": "chart---inner-consciousness",
+            "disabledUrl": false,
+            "relatedTo_chart": [6,0,11],
+            "relatedTo_education": [0,1,2,3,4,5],
+            "relatedTo_project": [0,30,1,29,28,27,25,26,24,11,18,23,20,21]
+        }
+    ],
+    "projects": [
+        {
+            "id": 0,
+            "name": "Portfolio 2009-2017",
+            "urlName": "project---portfolio",
+            "disabledUrl": false,
+            "main_display": true,
+            "startDate": "2017-05-01",
+            "endDate": "2017-08-01",
+            "relatedTo_chart": [0,1,2,3,5,10,11,21],
+            "relatedTo_project": [1],
+            "description_XS": 9
+        },
+        {
+            "id": 1,
+            "name": "GER WebApp",
+            "disabledUrl": false,
+            "redirectedTo_education": 0,
+            "main_display": true,
+            "startDate": "2016-02-01",
+            "endDate": "2016-12-01",
+            "relatedTo_chart": [0,1,3,4,5,10,11,15,19],
+            "relatedTo_education": [0],
+            "relatedTo_project": [0],
+            "description_XS": 8
+        },
+        {
+            "id": 2,
+            "name": "C#/Unity 42 Pool",
+            "disabledUrl": true,
+            "redirectedTo_education": 1,
+            "main_display": false,
+            "startDate": "2015-11-01",
+            "endDate": "2015-12-01"
+        },
+        {
+            "id": 3,
+            "name": "École 42 Projects",
+            "disabledUrl": false,
+            "main_display": true,
+            "startDate": "2014-11-01",
+            "endDate": "2015-12-01",
+            "redirectedTo_education": 1,
+            "relatedTo_chart": [0,3,4,5,12,13],
+            "relatedTo_education": [1],
+            "relatedTo_project": [2,4,6,7],
+            "description_XS": 7
+        },
+        {
+            "id": 4,
+            "name": "C++ 42 Pool",
+            "disabledUrl": true,
+            "redirectedTo_education": 1,
+            "main_display": false,
+            "startDate": "2015-06-01",
+            "endDate": "2015-07-01"
+        },
+        {
+            "id": 5,
+            "name": "Presentation on 'The Future of Sustainable Goals for Education'",
+            "disabledUrl": true,
+            "main_display": false,
+            "startDate": "2015-02-01",
+            "endDate": "2015-03-01"
+        },
+        {
+            "id": 6,
+            "name": "PHP 42 Pool",
+            "disabledUrl": true,
+            "redirectedTo_education": 1,
+            "main_display": false,
+            "startDate": "2015-01-01",
+            "endDate": "2015-02-01"
+        },
+        {
+            "id": 7,
+            "name": "C/zsh 42 Selection Pool",
+            "disabledUrl": true,
+            "redirectedTo_education": 1,
+            "main_display": false,
+            "startDate": "2014-09-01",
+            "endDate": "2014-10-01"
+        },
+        {
+            "id": 8,
+            "name": "SOLEs in Maths: Master Thesis",
+            "urlName": "project---soles-in-maths--master-thesis",
+            "disabledUrl": false,
+            "main_display": true,
+            "startDate": "2014-04-01",
+            "endDate": "2014-11-01",
+            "relatedTo_chart": [6,7,8,9,10,17],
+            "relatedTo_education": [2],
+            "relatedTo_project": [5,7,9,10],
+            "description_XS": 6
+        },
+        {
+            "id": 9,
+            "name": "SOLEs in India: Placement",
+            "urlName": "project---soles-in-india--placement",
+            "disabledUrl": false,
+            "main_display": true,
+            "startDate": "2014-02-01",
+            "endDate": "2014-05-01",
+            "relatedTo_chart": [6,7,8,9,10],
+            "relatedTo_education": [2],
+            "relatedTo_project": [5,8,10],
+            "description_XS": 5
+        },
+        {
+            "id": 10,
+            "name": "MA in Education Technology - Curricular Units",
+            "disabledUrl": true,
+            "redirectedTo_education": 2,
+            "main_display": false,
+            "startDate": "2013-09-01",
+            "endDate": "2014-02-01"
+        },
+        {
+            "id": 11,
+            "name": "Research in Computational Neuroscience",
+            "disabledUrl": false,
+            "redirectedTo_education": 4,
+            "main_display": true,
+            "startDate": "2012-04-01",
+            "endDate": "2013-10-01",
+            "description_XS": 2
+        },
+        {
+            "id": 12,
+            "name": "Medical Statistics Course",
+            "disabledUrl": true,
+            "redirectedTo_education": 4,
+            "main_display": false,
+            "startDate": "2013-04-01",
+            "endDate": "2013-05-01"
+        },
+        {
+            "id": 13,
+            "name": "MSc in Biomedical Engineering - Curricular Units",
+            "disabledUrl": true,
+            "redirectedTo_education": 3,
+            "main_display": false,
+            "startDate": "2012-09-01",
+            "endDate": "2013-03-01"
+        },
+        {
+            "id": 14,
+            "name": "Biofeedback ECG Tetris Game",
+            "urlName": "project---biofeedback-ecg-tetris-game-group-project",
+            "disabledUrl": false,
+            "main_display": true,
+            "startDate": "2012-10-01",
+            "endDate": "2013-01-01",
+            "relatedTo_chart": [12,14,17,18],
+            "relatedTo_education": [3],
+            "relatedTo_project": [13,15],
+            "description_XS": 4
+        },
+        {
+            "id": 15,
+            "name": "Biomechanics Gait Cycle",
+            "urlName": "project---biomechanics-gait-cycle-group-project",
+            "disabledUrl": false,
+            "main_display": true,
+            "startDate": "2012-10-01",
+            "endDate": "2013-02-01",
+            "relatedTo_chart": [12,14,17,18],
+            "relatedTo_education": [3],
+            "relatedTo_project": [13,14],
+            "description_XS": 3
+        },
+        {
+            "id": 16,
+            "name": "BSc in Biomedical Engineering - Curricular Units",
+            "disabledUrl": true,
+            "redirectedTo_education": 3,
+            "main_display": false,
+            "startDate": "2009-09-01",
+            "endDate": "2012-08-01"
+        },
+        {
+            "id": 17,
+            "name": "Bayesian Classifications Project in C",
+            "disabledUrl": true,
+            "redirectedTo_education": 3,
+            "main_display": false,
+            "startDate": "2012-05-01",
+            "endDate": "2012-07-01"
+        },
+        {
+            "id": 18,
+            "name": "Volunteer Training Co-Manager",
+            "disabledUrl": false,
+            "redirectedTo_education": 5,
+            "main_display": true,
+            "startDate": "2010-11-01",
+            "endDate": "2012-05-01",
+            "description_XS": 1
+        },
+        {
+            "id": 19,
+            "name": "Computational Mathematics Project in MatLab",
+            "disabledUrl": true,
+            "redirectedTo_education": 3,
+            "main_display": false,
+            "startDate": "2010-11-01",
+            "endDate": "2011-02-01"
+        },
+        {
+            "id": 20,
+            "name": "International Volunteering in Cape Verde",
+            "disabledUrl": true,
+            "redirectedTo_education": 5,
+            "main_display": false,
+            "startDate": "2010-08-01",
+            "endDate": "2010-09-01"
+        },
+        {
+            "id": 21,
+            "name": "Volunteer General Training",
+            "disabledUrl": true,
+            "redirectedTo_education": 5,
+            "main_display": false,
+            "startDate": "2009-11-01",
+            "endDate": "2010-08-01"
+        },
+        {
+            "id": 22,
+            "name": "Algorithm for DNA Hybridization on Wolfram Mathematica ",
+            "disabledUrl": true,
+            "redirectedTo_education": 3,
+            "main_display": false,
+            "startDate": "2009-10-01",
+            "endDate": "2010-01-01"
+        },
+        {
+            "id": 23,
+            "name": "Trip to Nepal",
+            "disabledUrl": true,
+            "redirectedTo_chart": 21,
+            "main_display": false,
+            "startDate": "2012-02-01",
+            "endDate": "2012-03-01"
+        },
+        {
+            "id": 24,
+            "name": "Trip to India",
+            "disabledUrl": true,
+            "redirectedTo_chart": 21,
+            "main_display": false,
+            "startDate": "2012-08-01",
+            "endDate": "2012-09-01"
+        },
+        {
+            "id": 25,
+            "name": "Shifting Career Focus towards Social Causes",
+            "disabledUrl": true,
+            "redirectedTo_chart": 21,
+            "main_display": false,
+            "startDate": "2012-11-01",
+            "endDate": "2013-06-01"
+        },
+        {
+            "id": 26,
+            "name": "Interail",
+            "disabledUrl": true,
+            "redirectedTo_chart": 21,
+            "main_display": false,
+            "startDate": "2013-02-01",
+            "endDate": "2013-03-01"
+        },
+        {
+            "id": 27,
+            "name": "Placement in India - not becoming a teacher",
+            "disabledUrl": true,
+            "redirectedTo_chart": 21,
+            "main_display": false,
+            "startDate": "2014-03-01",
+            "endDate": "2014-04-01"
+        },
+        {
+            "id": 28,
+            "name": "Master's Thesis and Future Prospects",
+            "disabledUrl": false,
+            "redirectedTo_education": 2,
+            "main_display": false,
+            "startDate": "2014-06-01",
+            "endDate": "2014-11-01"
+        },
+        {
+            "id": 29,
+            "name": "Meditation",
+            "disabledUrl": true,
+            "redirectedTo_chart": 21,
+            "main_display": false,
+            "startDate": "2015-12-01",
+            "endDate": "2017-08-01"
+        },
+        {
+            "id": 30,
+            "name": "Job Applications",
+            "disabledUrl": true,
+            "redirectedTo_chart": 21,
+            "main_display": false,
+            "startDate": "2017-04-01",
+            "endDate": "2017-05-01"
+        }
+    ],
+    "educations": [
+        {
+            "id": 0,
+            "name": "D3/Frontend Developer",
+            "urlName": "working-experience---d3--frontend-developer-internship",
+            "education_type": "working",
+            "startDate": "2016-02-01",
+            "endDate": "2016-12-01",
+            "relatedTo_chart": [0,1,3,4,5,10,11,15,19],
+            "relatedTo_education": [1],
+            "relatedTo_project": [0],
+            "description_XS": "F",
+            "atLocation": "Inovasis"
+        },
+        {
+            "id": 1,
+            "name": "Studies as Software Developer",
+            "urlName": "education---software-developer--at-ecole-42",
+            "education_type": "education",
+            "startDate": "2014-11-01",
+            "endDate": "2015-12-01",
+            "relatedTo_chart": [0,3,4,5,12,13,16],
+            "relatedTo_education": [0,2],
+            "relatedTo_project": [0,2,3,4,6,7],
+            "description_XS": "E",
+            "atLocation": "École 42 Paris"
+        },
+        {
+            "id": 2,
+            "name": "MA in Education Technology",
+            "urlName": "education---education-technology--master-at-newcastle-university",
+            "education_type": "education",
+            "startDate": "2013-09-01",
+            "endDate": "2014-11-01",
+            "relatedTo_education": [1,3,5],
+            "relatedTo_chart": [6,7,8,9,10,11,17],
+            "relatedTo_project": [5,7,8,9,10],
+            "description_XS": "D",
+            "atLocation": "Newcastle University"
+        },
+        {
+            "id": 3,
+            "name": "BSc in Biomedical Engineering",
+            "urlName": "education---biomedical-engineering--bachelor-at-ist-lisbon",
+            "education_type": "education",
+            "startDate": "2009-09-01",
+            "endDate": "2013-03-01",
+            "relatedTo_chart": [12,13,14,17,18,19],
+            "relatedTo_education": [2,4,5],
+            "relatedTo_project": [13,14,15,16,17,19,22],
+            "description_XS": "A",
+            "atLocation": "IST Lisbon"
+        },
+        {
+            "id": 4,
+            "name": "Computational Neuroscience Researcher",
+            "urlName": "working-experience---computational-neuroscience--research-at-imm-lisbon",
+            "education_type": "working",
+            "startDate": "2012-04-01",
+            "endDate": "2013-10-01",
+            "relatedTo_chart": [12,14,17,18,19,20],
+            "relatedTo_education": [3],
+            "relatedTo_project": [11,12],
+            "description_XS": "C",
+            "atLocation": "IMM Lisbon"
+        },
+        {
+            "id": 5,
+            "name": "Volunteer Training & Management",
+            "urlName": "volunteering---volunteer-experience",
+            "education_type": "volunteering",
+            "startDate": "2009-11-01",
+            "endDate": "2012-05-01",
+            "relatedTo_chart": [6,21],
+            "relatedTo_education": [3],
+            "relatedTo_project": [18,20,21],
+            "description_XS": "B",
+            "atLocation": "GASTagus"
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "date": "2009-09-01",
+            "name": "Moving to Lisbon to study BSc in Biomedical Engineering @ IST Lisbon"
+        },
+        {
+            "id": 1,
+            "date": "2009-11-01",
+            "name": "Started Volunteer Training @ GASTagus"
+        },
+        {
+            "id": 2,
+            "date": "2010-08-01",
+            "name": "1 month international volunteer project in Cape Verde w/ GASTagus"
+        },
+        {
+            "id": 3,
+            "date": "2010-10-01",
+            "name": "Started as co-manager of Volunteer Training in GASTagus"
+        },
+        {
+            "id": 4,
+            "date": "2012-04-01",
+            "name": "Joined Neurocomputational Research Group at IMM Lisbon; Left GASTagus"
+        },
+        {
+            "id": 5,
+            "date": "2012-09-01",
+            "name": "Started MSc in Biomedical Engineering @ IST Lisbon. Would leave in March 2013"
+        },
+        {
+            "id": 6,
+            "date": "2013-04-01",
+            "name": "Began applying for Masters merging a growing passion for social causes with acquired technical skills"
+        },
+        {
+            "id": 7,
+            "date": "2013-09-01",
+            "name": "Enrolled in Newcastle University to study Education Technology under Sugata Mitra"
+        },
+        {
+            "id": 8,
+            "date": "2014-09-01",
+            "name": "École 42 selection process (programming bootcamp)"
+        },
+        {
+            "id": 9,
+            "date": "2014-11-01",
+            "name": "Finished dissertation on SOLEs in Maths Education. Enrolled in École 42 to study software development"
+        },
+        {
+            "id": 10,
+            "date": "2015-12-01",
+            "name": "Left École 42"
+        },
+        {
+            "id": 11,
+            "date": "2016-02-01",
+            "name": "Began internship as D3/Frontend Developer @ Inovasis"
+        },
+        {
+            "id": 12,
+            "date": "2016-12-01",
+            "name": "Internship concluded"
+        },
+        {
+            "id": 13,
+            "date": "2017-04-01",
+            "name": "Began sending job applications and developing portfolio"
+        },
+        {
+            "id": 14,
+            "date": "2017-08-01",
+            "name": "Portfolio concluded"
+        }        
+    ]
+}

@@ -1,0 +1,46 @@
+<modal id="modalTimeline">
+  <div class="modal fade">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title pull-left">
+            {{pageInfo.name}}<span *ngIf=pageInfo.atLocation> at
+              {{pageInfo.atLocation}}</span>
+          </h4>
+          <button (click)="closeModalTimeline();"
+            type="button" class="close pull-right" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div style="margin:0 20px">
+            <written-events-on-timeline componentClass="" 
+              [pageID]="pageID" hasNotMarginLeft="true" isUpperAxis="true">
+            </written-events-on-timeline>
+            <project-timeline-chart componentClass="" [pageID]="pageID" 
+              [thisID]="pageID" timelineType="projects" hasNotMarginLeft="true">
+            </project-timeline-chart>
+            <project-timeline-chart componentClass="" [pageID]="pageID" 
+              [thisID]="pageID" timelineType="educations" hasNotMarginLeft="true">
+            </project-timeline-chart>
+
+            <portfolio-project-links 
+              projectsTitle="Related Projects"
+              [pageID]="pageID"
+              toSplit="true">
+            </portfolio-project-links>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div style="margin:0 20px">
+            <written-events-on-timeline componentClass="" 
+              isTimelineAxis="true" [pageID]="pageID">
+            </written-events-on-timeline>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-background"></div>
+</modal>
+

@@ -1,0 +1,94 @@
+<div class="pageHeader">
+  <!-- HEADER -->
+  <portfolio-header-link
+      phlPageTitle="Portfolio Explained"
+      phlPageSubtitle="Sep 2009 - Aug 2017"
+      phlBgColorClass="bgcolor-portfolio-explained"
+      phlBindingClass="h-title">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to see my"
+    phlTitle1="detailed skills"
+    phlBgColorClass="bgcolor-skillset shorter-Padding"
+    phlBindingClass="h-bt1"
+    headerLink="skills">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to return to"
+    phlTitle1="portfolio main page"
+    phlBgColorClass="bgcolor-pf-main-page shorter-Padding"
+    phlBindingClass="h-bt2"
+    headerLink="main">
+  </portfolio-header-link>
+  <a class="h-bthome homeLink bgcolor-h-button" 
+    routerLink="/home" routerLinkActive="active">
+    <span class="glyphicon glyphicon-home"></span>
+  </a>
+</div>
+
+<div class="portfolioExplainedGrid">
+  <div class="pEG__maintext" style="margin: 19px 0">
+    <p>
+      The goal of this portfolio was to display in an objective manner all the learning experiences I have had since I entered university in September 2009 until August 2017. 
+
+      <span class="pEG__notes">
+        *This page will not be displayed correctly in IE10, 11 or current Edge. Please make you have the latest version of your browser installed.
+      </span>
+
+      I used charts to display when and what project I was doing, how complex they were and how motivated I was while developing them, and what projects, learning/work places and skillsets they were related to. In addition, I included an ‘Inner Consciousness’ page to complement the descriptions of what I have done with how I felt at the time.
+    </p>
+
+    <h3 style="margin: 2.0em 0 0.6em 0">Portfolio Main Page</h3>
+    <span class="pEG__notes">
+      <img [src]=getImgByName(img1.name)/>
+    </span>
+    <p>
+      A timeline is displayed on top, with the projects and education/work locations’ description on the right side. Each line corresponds to a project/education/working/volunteering experience and it is represented by the color and character displayed on the links menu. Each coloured line and corresponding description are links for the project/education/working/volunteering experience’s page.
+    </p>
+    <div class="single-image" style="margin: 2.0em 0">
+      <img [src]=getImgByName(img0.name)/>
+    </div>
+    <p>
+      Descriptions of major events are displayed throughout the timeline in chronological order, with a vertical line crossing them. These lines are present in all charts, marking each event’s time period. 
+    </p>
+    <p>
+      Skill charts display how complex tasks were (in red) and how motivated I felt (in green) during a given time period. Although it is a very subjective scale, it’s goal was to allow a more or less objective comparison of the motivation and complexity perceived for each task/event. 
+      <br/>
+      Additionally, I included an ‘Inner Consciousness’ chart to complement the descriptions of what I have done with how I felt at the time, using 'clarity' (in purple) and happiness (in light green) as indicators.
+    </p>
+    <div class="single-image" style="margin: 2.0em 0">
+      <img [src]=getImgByName(img2.name) style="margin-bottom: 1.0em;"/>
+      <div >{{img2.caption}}</div>
+    </div>
+
+    <p>
+      When clicked, each of these charts are zoomed in through a modal window.
+      On top of the modal window, there is a link for a page describing the sum of the corresponding experience.
+    </p>
+    <h3 style="margin: 2.0em 0 0.6em 0">All Other Portfolio Pages</h3>
+    <p>
+      I divided these pages in 4 sections: timeline, description, notes and related skills. On the timeline section, the timeline chart is displayed. This chart is similar to the one on the main page, but contains only projects/education/working/volunteering experiences related to the page’s subject. The description and notes hold the information about the page’s theme. The related skills section displays all related skills and their charts.
+    </p>
+    <p>
+      Across each chart, there are 2 thicker vertical lines to depict the start and end dates of each experience. 
+
+      <span class="pEG__notes">
+        *In these pages' modal windows, a link is displayed only for the main skills (Web Programming, Design, Education, Mathematics, Other Programming) and Inner Consciousness.
+      </span>
+      <br/>
+      When clicked, all charts are zoomed in through a modal window.
+    </p>
+    <p>
+      
+    </p>
+
+    <h3 style="margin: 2.0em 0 0.6em 0">Additional Functionalities</h3>
+    <p>
+      In every page (except this one), 
+      when hovering over a timeline coloured line or its corresponding link in the list, they are both highlighted.
+      <br/> 
+      When clicking over an image, it is zoomed in on a modal window.
+    </p>
+
+  </div>
+</div>

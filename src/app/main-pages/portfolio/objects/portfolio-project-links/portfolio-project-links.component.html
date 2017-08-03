@@ -1,0 +1,209 @@
+<div [class.sm-text]="isMainPage == undefined" [class.row]="isToSplit"
+  [class.reduceFontSize]="isItMainPage">
+  <div 
+    [class.col-xs-16]="countColumns == 2" 
+    [class.col-xs-11]="countColumns == 3" 
+    [class.marginTop-12px]="!isItMainPage">
+
+    <div *ngIf="projectsFilteredList && projectsFilteredList.length != 0"
+      class="color-project" >
+      {{getProjectsTitle() | uppercase}}
+    </div>
+    <ul>
+      <li *ngFor="let project of projectsFilteredList; let i = index;">
+        <ng-template [ngIf]="i<=XProjects || !isToSplit">
+          <a *ngIf="!project.disabledUrl" [routerLink]="['/portfolio', project.urlName]"
+            [attr.data-hover]="concatLink('projects', project.id)"
+            (mouseover)="hoverLines('projects', project.id, true)"
+            (mouseleave)="hoverLines('projects', project.id, false)">
+            [{{(i + 1)}}] {{project.name}}
+          </a>
+          <a *ngIf="project.disabledUrl"  class="disabled"
+            [attr.data-hover]="concatLink('projects', project.id)"
+            (mouseover)="hoverLines('projects', project.id, true)"
+            (mouseleave)="hoverLines('projects', project.id, false)">
+            [{{(i + 1)}}] {{project.name}}
+          </a>
+        </ng-template>
+      </li>
+    </ul>
+
+  </div>
+  <div *ngIf="isThereAnyEducation"
+    [class.col-xs-16]="countColumns == 2" 
+    [class.col-xs-10]="countColumns == 3" 
+    [class.marginTop-12px]="isToSplit">
+    <ng-template [ngIf]="projectsFilteredList.length > XProjects && isToSplit">
+      <ul style="margin-top: 24px">
+        <li *ngFor="let project of projectsFilteredList; let i = index;">
+          <ng-template [ngIf]="i>XProjects">
+            <a *ngIf="!project.disabledUrl" [routerLink]="['/portfolio', project.urlName]"
+              [attr.data-hover]="concatLink('projects', project.id)"
+              (mouseover)="hoverLines('projects', project.id, true)"
+              (mouseleave)="hoverLines('projects', project.id, false)">
+              [{{(i + 1)}}] {{project.name}}
+            </a>
+            <a *ngIf="project.disabledUrl"  class="disabled"
+              [attr.data-hover]="concatLink('projects', project.id)"
+              (mouseover)="hoverLines('projects', project.id, true)"
+              (mouseleave)="hoverLines('projects', project.id, false)">
+              [{{(i + 1)}}] {{project.name}}
+            </a>
+
+          </ng-template>
+        </li>
+      </ul>
+      <div class="chart-captions">
+        <chart-captions></chart-captions>
+      </div>
+    </ng-template>
+
+    <ng-template [ngIf]="projectsFilteredList.length <= XProjects || !isToSplit">
+      <div *ngIf="educationsFilteredList && educationsFilteredList.length != 0"
+                                          class="color-education">
+      EDUCATION
+      </div>
+      <ul>
+        <li *ngFor="let education of educationsFilteredList;">
+          <a *ngIf="!education.disabledUrl"
+            [routerLink]="['/portfolio', education.urlName]"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+          <a *ngIf="education.disabledUrl"  class="disabled"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+        </li>
+      </ul>
+
+      <div *ngIf="volunteersFilteredList && volunteersFilteredList.length != 0"
+                                            class="color-volunteering">
+        VOLUNTEERING
+      </div>
+      <ul>
+        <li *ngFor="let education of volunteersFilteredList;">
+          <a *ngIf="!education.disabledUrl"
+            [routerLink]="['/portfolio', education.urlName]"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+          <a *ngIf="education.disabledUrl"  class="disabled"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+        </li>
+      </ul>
+
+      <div *ngIf="worksFilteredList && worksFilteredList.length != 0"
+                                          class="color-working">
+        WORKING EXPERIENCE
+      </div>
+      <ul>
+        <li *ngFor="let education of worksFilteredList;">
+          <a *ngIf="!education.disabledUrl"
+            [routerLink]="['/portfolio', education.urlName]"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+          <a *ngIf="education.disabledUrl"  class="disabled"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+        </li>
+      </ul>
+    </ng-template>
+  </div>
+
+  <div *ngIf="isASkill && isToSplit" 
+    [class.col-xs-16]="countColumns == 2" 
+    [class.col-xs-11]="countColumns == 3" 
+    [class.marginTop-12px]="isToSplit" >
+
+    <ng-template [ngIf]="projectsFilteredList.length > XProjects && isToSplit">
+      <div *ngIf="educationsFilteredList && educationsFilteredList.length != 0"
+                                          class="color-education">
+      EDUCATION
+      </div>
+      <ul>
+        <li *ngFor="let education of educationsFilteredList;">
+          <a *ngIf="!education.disabledUrl"
+            [routerLink]="['/portfolio', education.urlName]"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+          <a *ngIf="education.disabledUrl"  class="disabled"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+        </li>
+      </ul>
+
+      <div *ngIf="volunteersFilteredList && volunteersFilteredList.length != 0"
+                                            class="color-volunteering">
+        VOLUNTEERING
+      </div>
+      <ul>
+        <li *ngFor="let education of volunteersFilteredList;">
+          <a *ngIf="!education.disabledUrl"
+            [routerLink]="['/portfolio', education.urlName]"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+          <a *ngIf="education.disabledUrl"  class="disabled"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+        </li>
+      </ul>
+
+      <div *ngIf="worksFilteredList && worksFilteredList.length != 0"
+                                          class="color-working">
+        WORKING EXPERIENCE
+      </div>
+      <ul>
+        <li *ngFor="let education of worksFilteredList;">
+          <a *ngIf="!education.disabledUrl"
+            [routerLink]="['/portfolio', education.urlName]"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+          <a *ngIf="education.disabledUrl"  class="disabled"
+            [attr.data-hover]="concatLink('educations', education.id)"
+            (mouseover)="hoverLines('educations', education.id, true)"
+            (mouseleave)="hoverLines('educations', education.id, false)">
+            [{{education.description_XS}}] {{education.name}}
+          </a>
+        </li>
+      </ul>
+    </ng-template>
+
+    <ng-template [ngIf]="projectsFilteredList.length <= XProjects || !isToSplit">
+      <div class="chart-captions">
+        <chart-captions></chart-captions>
+      </div>
+    </ng-template>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+:host {
+  grid-area: header;
+
+  line-height: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  background: #fff6d5; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, #fff6d5); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, #fff6d5); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, #fff6d5); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, #fff6d5); /* Standard syntax */
+
+  color: #000;
+}
+  :host h1 {
+    display: inline;
+  }
+
+  :host ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+  }
+  :host li {
+    float: right;
+  }
+  :host li a, :host li a:visited {
+    text-align: center;
+    padding: 30px 16px;
+    font: 1.2em Georgia, Times, serif;
+    color: #000;
+    text-decoration: underline;
+  }
+    :host li a:hover:not(.active), :host li a:focus:not(.active)  {
+      z-index: 2;
+      color: #0038a8;
+      text-decoration: none;
+    }
+    :host li a.active {
+      text-decoration: none;
+      cursor: default;
+    }

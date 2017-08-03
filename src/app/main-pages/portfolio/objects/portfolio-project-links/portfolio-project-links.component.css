@@ -1,0 +1,39 @@
+:host div div div { 
+  padding: 12px 0 10px 0;
+  letter-spacing: 0.5px;
+}
+:host li {
+  margin-bottom: 8px;
+  text-indent: -1.7em;
+  padding-left: 1.7em;
+}
+:host li a {
+  font: 11px Verdana, Arial, sans-serif;
+  color: #111;
+}
+  :host li a.hover { text-decoration: underline; }
+
+.sm-text div div { font-size: 11px; padding: 6px 0 8px 0 !important; }
+.sm-text ul li a { font-size: 10px; }
+
+.cancelChanges { padding: 0 !important; }
+.marginTop-12px { margin-top: 12px; }
+
+.chart-captions { 
+  color: #444;
+  font: 9px Verdana, Arial, sans-serif !important;
+  line-height: 1.7em;
+  letter-spacing: 0 !important;
+}
+
+
+@media (max-width: 1110px) {
+  .reduceFontSize { font-size: 10px !important; }
+  .reduceFontSize a { font-size: 9.5px !important; }
+}
+@media (max-width: 991px) {
+  :host h4 { font-size: 11px; }
+  :host div { padding-bottom: 6px; font-size: 10px; }
+  :host li a { font-size: 9px; }
+  :host li { margin-bottom: 4px; }
+}

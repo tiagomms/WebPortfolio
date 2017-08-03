@@ -1,0 +1,14 @@
+<a [class]="phlBgColorClass" (click)="navigateInPortfolioTo(headerLink)">
+  <!-- Header Page Title -->
+  <h1 *ngIf="phlPageTitle" class="original-size">{{phlPageTitle}}</h1>
+  <h5 *ngIf="phlPageSubtitle">{{phlPageSubtitle}}</h5>
+
+  <!-- Header Page Links -->
+  <span *ngIf="phlIntroText" class="smallerText">
+    {{phlIntroText}}
+  </span>
+  <h1 *ngIf="phlTitle1 && !phlTitle2">{{phlTitle1}}</h1>
+  <h2 *ngIf="phlTitle1 && phlTitle2">{{phlTitle1}}</h2>
+  <h2 *ngIf="phlTitle2">{{phlTitle2}}</h2>
+</a>
+

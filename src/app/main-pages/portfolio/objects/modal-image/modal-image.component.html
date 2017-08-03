@@ -1,0 +1,23 @@
+<modal id="modalImage">
+    <div class="modal fade">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button (click)="closeModalImage();"
+              type="button" class="close pull-right" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div style="margin:40px 40px 0 40px">
+              <img [src]="imgFullPath" style="max-height: 60vh"/>
+            </div>
+          </div>
+          <div *ngIf="imgCaption" class="modal-footer talign-center"
+            style="margin: 10px 30px;">
+            {{imgCaption}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-background"></div>
+</modal>
+

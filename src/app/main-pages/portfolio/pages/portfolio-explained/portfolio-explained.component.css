@@ -1,0 +1,32 @@
+.pEG__maintext { grid-area: maintext; }
+.portfolioExplainedGrid {
+  display: grid;
+  min-width: 100vw;
+  min-height: 100vh;
+  min-height: calc(100vh - 70px);
+  grid-template-columns: [padding-left] 1fr
+                         [maintext] 9fr
+                         [padding-maintext-notes] 30px
+                         [notes] 3fr
+                         [padding-right] 1fr;
+
+  grid-template-rows: 30px 1fr;
+  grid-gap: 0;
+  grid-template-areas:  ". .        . . ."
+                        ". maintext . . .";
+}
+
+.pEG__notes {
+  position: absolute;
+  width: calc((100% - 30px) * (3 / 14));
+  left: calc((100% - 30px) * (10 / 14) + 30px);
+  color: #444;
+  font:  10px Verdana, Arial, sans-serif;
+  line-height: 1.4em;
+}
+@media (max-width: 768px) {
+  .pEG__notes {
+    width: 158.1px;
+    left: 557.2px;
+  }
+}

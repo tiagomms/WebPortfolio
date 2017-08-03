@@ -1,0 +1,140 @@
+/* page grid */
+.ed__page-image { grid-area: page-image; }
+.ed__project-links { grid-area: project-links; }
+.ed__main   { grid-area: main; }
+.ed__notes  { grid-area: notes; }
+.ed__charts { grid-area: charts; }
+
+.chart-captions { 
+  margin: 20px 0 10px 10px;
+  color: #444;
+  font:  0.8em Verdana, Arial, sans-serif;
+  line-height: 1.7em;
+}
+
+.notes {
+  position: absolute;
+  width: 170px;
+  left: 844px;
+  left: calc((100% - 300px) * (7/9) + 80px);
+  margin-bottom: 10px;
+  color: #444;
+  font:  0.8em Verdana, Arial, sans-serif;
+  line-height: 1.4em;
+}
+
+.educationPageMainGrid {
+  display: grid;
+  min-height: 100vh;
+  min-height: calc(100vh - 70px);
+  min-width: 100vw;
+  grid-template-columns: [padding-start-left] 20px
+                         [left-notes] 2fr
+                         [padding-left-main] 30px
+                         [main] 5fr
+                         [padding-main-notes] 30px
+                         [notes] 170px
+                         [padding-notes-charts] 30px
+                         [charts] 2fr
+                         [padding-charts-end] 20px;
+
+  grid-template-rows: [padding-header-main] 30px 
+                      [image-height] auto 
+                      [rest] 1fr;
+  grid-gap: 0 0;
+  grid-template-areas:
+    ". .              . .    . .     . .      . "
+    ". page-image     . main . notes . charts . "
+    ". project-links  . main . notes . charts . ";
+}
+
+.skillPageMainGrid {
+  display: grid;
+  min-height: 100vh;
+  min-height: calc(100vh - 70px);
+  min-width: 100vw;
+  grid-template-columns: [padding-start-left] 20px
+                         [left-notes] 2fr
+                         [padding-left-main] 30px
+                         [main] 5fr
+                         [padding-main-notes] 30px
+                         [notes] 170px
+                         [padding-notes-charts] 30px
+                         [charts] 2fr
+                         [padding-charts-end] 20px;
+
+  grid-template-rows: [padding-header-main] 30px 
+                      [image-height] auto 
+                      [rest] 1fr;
+  grid-gap: 0 0;
+  grid-template-areas:
+    ". .              .          .          .          .          . .      . "
+    ". page-image     page-image page-image page-image page-image . charts . "
+    ". project-links  .          main       .          notes      . charts . ";
+}
+
+@media (max-width: 991px) {
+  .notes {
+    width: 17.7%;
+    width: calc((100% - 110px) * (2/10));
+    left: 79.2%;
+    left: calc((100% - 110px) * (8/10) + 90px);
+    line-height: 1.2em;
+    font-size: 0.7em;
+  }
+  .educationPageHeader {
+    grid-template-columns: [header-title] 5fr
+                          [first-button] 2fr
+                          [second-button] 2fr
+                          [third-button] 2fr;
+  }
+
+  .educationPageMainGrid {
+    grid-template-columns: [padding-start-left] 20px
+                          [left-notes] 3fr
+                          [padding-left-main] 40px
+                          [main] 5fr
+                          [padding-main-notes] 30px
+                          [notes] 2fr
+                          [padding-notes-end] 20px;
+
+    grid-template-rows: [padding-header-main] 30px 
+                        [image-height] auto 
+                        [projects-description] auto
+                        [rest] 1fr;
+    grid-gap: 0 0;
+    grid-template-areas:
+      ". .              . .    . .     ."
+      ". page-image     . main . notes ."
+      ". project-links  . main . notes ."
+      ". charts         . main . notes .";
+  }
+  .skillPageMainGrid {
+    grid-template-columns: [padding-start-left] 20px
+                          [left-notes] 3fr
+                          [padding-left-main] 40px
+                          [main] 5fr
+                          [padding-main-notes] 30px
+                          [notes] 2fr
+                          [padding-notes-end] 20px;
+
+    grid-template-rows: [padding-header-main] 30px 
+                        [image-height] auto 
+                        [projects-description] auto
+                        [rest] 1fr;
+    grid-gap: 0 0;
+    grid-template-areas:
+      ". .              .           .          .          .          ."
+      ". page-image     page-image  page-image page-image page-image ."
+      ". project-links  .           main       .          notes      ."
+      ". charts         .           main       .          notes      .";
+  }
+  .ed__charts { margin-top: 20px; }
+  .chart-captions { margin-top: 10px; }
+}
+@media (max-width: 768px) {
+  .notes {
+    width: 131.6px;
+    left: 616.4px;
+  }
+}

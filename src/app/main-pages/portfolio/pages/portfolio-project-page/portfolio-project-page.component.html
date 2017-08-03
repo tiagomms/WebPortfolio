@@ -1,0 +1,26 @@
+<p>
+In April 2017 I began applying for jobs as a frontend developer. Due to not having much experience in Web Programming and having been asked by some companies to provide a portfolio, I decided to create my own web portfolio in the beginning of May.
+</p>
+
+<p>
+The goal of this portfolio is to display my studies and projects I have worked on in an objective manner, and show the relationships between them and the skills I have developed through time. The timespan is from September 2009, when I started my BSc degree in IST Lisbon, until August 2017.
+</p>
+
+<p>
+<span class="portfolioNotes"> 
+  *At the moment, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank">CSS Grid Layouts</a> are not compatible with IE or Microsoft Edge.
+</span>
+I began designing a website mockup using Inkscape. In the development stage, I used the latest grid layouts on CSS3, Angular2 as the frontend framework and D3 to code each chart type. I used Vim as a text editor.
+</p>
+
+<p>
+All design, code and text were carried out by me. I thank my sister, Catarina Silva, for reviewing the text and Miguel Tavares (<a href="https://github.com/mgontav" target="_blank">@mgontav</a>) for his advice during the website development. Throughout this process, I was inspired by Edward Tufte’s books: <a href="https://www.amazon.com/Envisioning-Information-Edward-R-Tufte/dp/0961392118/ref=asap_bc?ie=UTF8" target="_blank"><i>Envisioning Information</i> (1990)</a> and <a href="https://www.amazon.com/Visual-Explanations-Quantities-Evidence-Narrative/dp/0961392126/ref=asap_bc?ie=UTF8" target="_blank"><i>Visual Explanations: Images and Quantities, Evidence and Narrative</i> (1997)</a>.
+</p>
+
+<div class="single-image" style="margin: 30px 0 20px 0;">
+  <a class="zoom-in"
+    (click)="createDynamicModalImage(img0)">
+    <img [src]="ps.getImgByName(img0.name)"/>
+    <div style="margin-top: 10px;">{{img0.caption}}</div>
+  </a>
+</div>

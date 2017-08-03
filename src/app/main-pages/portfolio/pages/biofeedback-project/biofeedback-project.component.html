@@ -1,0 +1,38 @@
+<span class="portfolioNotes">
+    <img [src]="ps.getImgByName(img2.name)" />
+</span>
+<p>
+  Developed at IST Lisbon (October 2012 - January 2013) for the module Instrumentation 
+  and Signal Acquisition, a part of MSc’s in Biomedical Engineering <b>[A]</b>.
+  This project’s goal was to develop a biofeedback game, in which the difficulty 
+  would increase if the user exhibited signs of anxiety or distress while 
+  playing. The user, once aware, should use breathing techniques to reduce 
+  his/hers levels of anxiety, and therefore reduce the game’s difficulty.
+</p>
+<p>
+  In order to do so, an Arduino was adapted to an Electrocardiogram circuit [ECG] 
+  and programmed to calculate the average heart rate of the user. After 
+  processing the signals, the ECG signal and current heart rate were sent to a 
+  MatLab game code (a tetris game). While playing the game, the current heart 
+  rate vs the user’s normal heart rate were displayed. If the current heart 
+  rate exceeded a given threshold, the tetris' speed would increase.
+</p>
+<p>
+  Our workgroup was comprised of 9 students. I was the group leader and MatLab 
+  lead developer, responsible for the tetris game, the ECG signal visualisation 
+  on the game, and how the user’s current heart rate affected the game’s 
+  difficulty.
+</p>
+
+<div class="image-flex-row" style="height: 200px; margin-top: 30px;">
+  <a style="margin: 0 10px 0 0 " class="zoom-in"
+    (click)="createDynamicModalImage(img0)">
+    <img [src]="ps.getImgByName(img0.name)"/>
+    <div style="margin-top: 10px;">{{img0.caption}}</div>
+  </a>
+  <a style="margin: 0 0 0 10px" class="zoom-in"
+    (click)="createDynamicModalImage(img1)">
+    <img [src]="ps.getImgByName(img1.name)"/>
+    <div style="margin-top: 10px;">{{img1.caption}}</div>
+  </a>
+</div>

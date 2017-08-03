@@ -1,0 +1,156 @@
+<!-- HEADER -->
+<div class="pageHeader" *ngIf="pageID">
+
+  <portfolio-header-link
+      [phlPageTitle]="getPageTitle()"
+      [phlPageSubtitle]="getPageSubTitle()"
+      [phlBgColorClass]="getBgColor()"
+      phlBindingClass="h-title">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to see my"
+    phlTitle1="detailed skills"
+    phlBgColorClass="bgcolor-skillset shorter-Padding"
+    phlBindingClass="h-bt1"
+    headerLink="skills">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to return to"
+    phlTitle1="portfolio main page"
+    phlBgColorClass="bgcolor-pf-main-page shorter-Padding"
+    phlBindingClass="h-bt2"
+    headerLink="main">
+  </portfolio-header-link>
+  <a class="h-bthome homeLink bgcolor-h-button" 
+    routerLink="/home" routerLinkActive="active">
+    <span class="glyphicon glyphicon-home"></span>
+  </a>
+</div>
+
+<!-- BODY -->
+<div *ngIf="pageID" class="educationPageMainGrid">
+  <!--
+    [class.educationPageMainGrid]="pageID?.indexOf('charts') == -1"
+    [class.skillPageMainGrid]="pageID?.indexOf('charts') != -1" >
+  -->
+  <!-- MAIN -->
+  <div class="ed__page-image" *ngFor="let i of dynamicArray">
+    <img *ngIf="pageID.indexOf('charts') == -1" 
+      [src]="getImgTheme()" style="max-height:120px; margin-bottom: 10px;"/>
+
+    <a *ngIf="pageID.indexOf('charts') != -1"
+      class="context-menu fullWidth" 
+      (click)="createDynamicModalChart(thisID, pageID)">
+      <written-events-on-timeline componentClass="" isUpperAxis="true">
+      </written-events-on-timeline>
+      <chart-skill-time componentClass="context-menu" heightNotSaved="true"
+        [chartID]="thisID">
+      </chart-skill-time>
+      <project-timeline-chart componentClass="" [thisID]="pageID"
+                              timelineType="projects">
+      </project-timeline-chart>
+      <project-timeline-chart componentClass="" [thisID]="pageID"
+                              timelineType="educations">
+      </project-timeline-chart>
+    </a>
+  </div>
+  <div class="ed__project-links" *ngFor="let i of dynamicArray">
+
+    <a *ngIf="pageID.indexOf('charts') == -1"
+      class="context-menu"
+      (click)="createDynamicModalPageTimeline(pageID)">
+      <written-events-on-timeline componentClass="" 
+        [pageID]="pageID" hasNotMarginLeft="true" isUpperAxis="true">
+      </written-events-on-timeline>
+      <project-timeline-chart componentClass="" [thisID]="pageID"
+        timelineType="projects" hasNotMarginLeft="true" [pageID]="pageID">
+      </project-timeline-chart>
+      <project-timeline-chart componentClass="" [thisID]="pageID"
+        timelineType="educations" hasNotMarginLeft="true" [pageID]="pageID">
+      </project-timeline-chart>
+    </a>
+
+    <portfolio-project-links 
+      projectsTitle="Related Projects"
+      [pageID]="pageID">
+    </portfolio-project-links>
+  </div>
+  <div class="ed__notes"></div>
+  <div class="ed__charts">
+    <div class="color-skillset letter-spaced font-size-11px">RELATED SKILLS</div>
+    <div  *ngFor="let i of dynamicArray">
+      <written-events-on-timeline componentClass="" 
+        [pageID]="getPageIDIfNotChart(pageID)"
+        hasNotMarginLeft="false" isUpperAxis="true">
+      </written-events-on-timeline>
+    </div>
+    <ul class="no-padding" style="margin-top:5px">
+      <li *ngFor="let skill of skillsList;"
+         style="margin: 2px 0 4px">
+        <chart-skill-time componentClass="context-menu" heightNotSaved="true"
+          hasTitle="true" [chartID]="skill"
+          [pageID]="getPageIDIfNotChart(pageID)"
+          (click)="createDynamicModalChart(skill, pageID)">
+        </chart-skill-time>
+      </li>
+    </ul>
+    <div  *ngFor="let i of dynamicArray">
+      <written-events-on-timeline componentClass="" 
+        [pageID]="getPageIDIfNotChart(pageID)"
+        hasNotMarginLeft="false" isUpperAxis="false">
+      </written-events-on-timeline>
+    </div>
+    <div class="chart-captions">
+      <chart-captions></chart-captions>
+    </div>
+  </div>
+  <div [ngSwitch]="pageID" class="ed__main">
+
+    <portfolio-project-page *ngSwitchCase="'projects 0'">
+    </portfolio-project-page>
+    <master-thesis *ngSwitchCase="'projects 8'">
+    </master-thesis>
+    <placement *ngSwitchCase="'projects 9'">
+    </placement>
+    <biofeedback-project *ngSwitchCase="'projects 14'"></biofeedback-project>
+    <biomechanics-gait-cycle *ngSwitchCase="'projects 15'">
+    </biomechanics-gait-cycle>
+    
+    <ger-app *ngSwitchCase="'educations 0'">
+    </ger-app>
+    <ecole-42 *ngSwitchCase="'educations 1'">
+    </ecole-42>
+    <education-technology *ngSwitchCase="'educations 2'">
+    </education-technology>
+    <biomedical-engineering *ngSwitchCase="'educations 3'">
+    </biomedical-engineering>
+    <computational-neuroscience *ngSwitchCase="'educations 4'">
+    </computational-neuroscience>
+    <gastagus *ngSwitchCase="'educations 5'"></gastagus>
+
+    <web-programming *ngSwitchCase="'charts 0'">
+    </web-programming>
+    <education-xp *ngSwitchCase="'charts 6'">
+    </education-xp>
+    <design-xp *ngSwitchCase="'charts 10'">
+    </design-xp>
+    <other-programming-xp *ngSwitchCase="'charts 12'">
+    </other-programming-xp>
+    <mathematics-xp *ngSwitchCase="'charts 17'">
+    </mathematics-xp>
+
+    <inner-consciousness *ngSwitchCase="'charts 21'">
+    </inner-consciousness>
+
+    <div *ngSwitchDefault>
+      <p>
+        ERROR!
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modals -->
+<dynamic-modal [componentData]="portfolioService.getComponentData()">
+</dynamic-modal>

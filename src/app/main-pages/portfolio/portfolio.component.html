@@ -1,0 +1,87 @@
+<div class="pageHeader">
+  <!-- HEADER -->
+  <portfolio-header-link
+      phlPageTitle="Portfolio Main Page"
+      phlPageSubtitle="Sep 2009 - Aug 2017"
+      phlBgColorClass="bgcolor-pf-main-page"
+      phlBindingClass="h-title">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to see the"
+    phlTitle1="portfolio explained"
+    phlBgColorClass="bgcolor-portfolio-explained shorter-Padding"
+    phlBindingClass="h-bt1"
+    headerLink="explained">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to see my"
+    phlTitle1="detailed skills"
+    phlBgColorClass="bgcolor-skillset shorter-Padding"
+    phlBindingClass="h-bt2"
+    headerLink="skills">
+  </portfolio-header-link>
+  <a class="h-bthome homeLink bgcolor-h-button" 
+    routerLink="/home" routerLinkActive="active">
+    <span class="glyphicon glyphicon-home"></span>
+  </a>
+</div>
+
+<div class="portfolioMainPageGrid">
+  <!-- MAIN -->
+  <div class="mt-title title-preDef">My Timeline</div>
+  <div class="mt-chart">
+    <written-events-on-timeline componentClass="" 
+       isMainPage="true" filterOdd="0">
+    </written-events-on-timeline>
+    <project-timeline-chart componentClass="" 
+      timelineType="projects" isMainPage="true">
+    </project-timeline-chart>
+    <project-timeline-chart componentClass="" 
+      timelineType="educations" isMainPage="true">
+    </project-timeline-chart>
+    <written-events-on-timeline componentClass="" 
+       isMainPage="true" filterOdd="1">
+    </written-events-on-timeline>
+  </div>
+
+  <div class="wp-title title-preDef">Web Programming</div>
+  <chart-skill-time componentClass="wp-chart context-menu"
+    hasTitle=false chartID=0 isMainPage="true"
+    (click)="createDynamicModalChart(0, pageID)">
+  </chart-skill-time>
+  <div class="de-title title-preDef">Design</div>
+  <chart-skill-time componentClass="de-chart context-menu"
+    hasTitle=false chartID=10 isMainPage="true"
+    (click)="createDynamicModalChart(10, pageID)">
+  </chart-skill-time>
+  <div class="ed-title title-preDef">Education</div>
+  <chart-skill-time componentClass="ed-chart context-menu"
+    hasTitle=false chartID=6 isMainPage="true"
+    (click)="createDynamicModalChart(6, pageID)">
+  </chart-skill-time>
+  <div class="ma-title title-preDef">Mathematics</div>
+  <chart-skill-time componentClass="ma-chart context-menu"
+    hasTitle=false chartID=17 isMainPage="true"
+    (click)="createDynamicModalChart(17, pageID)">
+  </chart-skill-time>
+  <div class="op-title title-preDef">Other Programming</div>
+  <chart-skill-time componentClass="op-chart context-menu"
+    hasTitle=false chartID=12 isMainPage="true"
+    (click)="createDynamicModalChart(12, pageID)">
+  </chart-skill-time>
+  <div class="ic-title title-preDef">Inner Consciousness</div>
+  <chart-skill-time componentClass="ic-chart context-menu"
+    hasTitle=false chartID=21 isMainPage="true"
+    (click)="createDynamicModalChart(21, pageID)">
+  </chart-skill-time>
+
+  <div class="project-links">
+    <portfolio-project-links isMainPage="true" projectsTitle="Main Projects"></portfolio-project-links>
+  </div>
+  <div class="captions">
+    <chart-captions isMainPage="true"></chart-captions>
+  </div>
+</div>
+
+<dynamic-modal [componentData]="ps.getComponentData()">
+</dynamic-modal>

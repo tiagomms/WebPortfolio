@@ -1,0 +1,154 @@
+<div class="pageHeader">
+  <!-- HEADER -->
+  <portfolio-header-link
+      phlPageTitle="Skillset"
+      phlPageSubtitle="Sep 2009 - Aug 2017"
+      phlBgColorClass="bgcolor-skillset"
+      phlBindingClass="h-title">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to see the"
+    phlTitle1="portfolio explained"
+    phlBgColorClass="bgcolor-portfolio-explained shorter-Padding"
+    phlBindingClass="h-bt1"
+    headerLink="explained">
+  </portfolio-header-link>
+  <portfolio-header-link 
+    phlIntroText="click here to return to"
+    phlTitle1="portfolio main page"
+    phlBgColorClass="bgcolor-pf-main-page shorter-Padding"
+    phlBindingClass="h-bt2"
+    headerLink="main">
+  </portfolio-header-link>
+  <a class="h-bthome homeLink bgcolor-h-button" 
+    routerLink="/home" routerLinkActive="active">
+    <span class="glyphicon glyphicon-home"></span>
+  </a>
+</div>
+
+<div class="skillsGrid">
+  <!-- helpful Axis -->
+  <written-events-on-timeline componentClass="top-col0"
+    hasNotMarginLeft="false"
+    isUpperAxis="true">
+  </written-events-on-timeline>
+  <written-events-on-timeline componentClass="top-col1"
+    hasNotMarginLeft="false"
+    isUpperAxis="true">
+  </written-events-on-timeline>
+  <written-events-on-timeline componentClass="top-col2"
+    hasNotMarginLeft="false"
+    isUpperAxis="true">
+  </written-events-on-timeline>
+  <written-events-on-timeline componentClass="top-col3"
+    hasNotMarginLeft="false"
+    isUpperAxis="true">
+  </written-events-on-timeline>
+
+  <written-events-on-timeline componentClass="bot-col0"
+    hasNotMarginLeft="false"
+    isUpperAxis="false">
+  </written-events-on-timeline>
+  <written-events-on-timeline componentClass="bot-col1"
+    hasNotMarginLeft="false"
+    isUpperAxis="false">
+  </written-events-on-timeline>
+  <written-events-on-timeline componentClass="bot-col2"
+    hasNotMarginLeft="false"
+    isUpperAxis="false">
+  </written-events-on-timeline>
+  <written-events-on-timeline componentClass="bot-col3"
+    hasNotMarginLeft="false"
+    isUpperAxis="false">
+  </written-events-on-timeline>
+
+  <!-- Web Programming -->
+  <chart-skill-time componentClass="web-0 context-menu"
+    hasTitle="true" [chartID]=0
+    (click)="createDynamicModalChart(0, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="web-1 context-menu"
+    hasTitle="true" [chartID]=1
+    (click)="createDynamicModalChart(1, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="web-3 context-menu"
+    hasTitle="true" [chartID]=3
+    (click)="createDynamicModalChart(3, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="web-4 context-menu"
+    hasTitle="true" [chartID]=4
+    (click)="createDynamicModalChart(4, '')">
+  </chart-skill-time>
+
+  <!-- Design -->
+  <chart-skill-time componentClass="dsg-10 context-menu"
+    hasTitle="true" [chartID]=10
+    (click)="createDynamicModalChart(10, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="dsg-11 context-menu"
+    hasTitle="true" [chartID]=11
+    (click)="createDynamicModalChart(11, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="dsg-5 context-menu"
+    hasTitle="true" [chartID]=5
+    (click)="createDynamicModalChart(5, '')">
+  </chart-skill-time>
+
+  <!-- Education -->
+  <chart-skill-time componentClass="edu-6 context-menu"
+    hasTitle="true" [chartID]=6
+    (click)="createDynamicModalChart(6, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="edu-7 context-menu"
+    hasTitle="true" [chartID]=7
+    (click)="createDynamicModalChart(7, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="edu-8 context-menu"
+    hasTitle="true" [chartID]=8
+    (click)="createDynamicModalChart(8, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="edu-9 context-menu"
+    hasTitle="true" [chartID]=9
+    (click)="createDynamicModalChart(9, '')">
+  </chart-skill-time>
+
+  <!-- Mathematics -->
+  <chart-skill-time componentClass="mth-17 context-menu"
+    hasTitle="true" [chartID]=17
+    (click)="createDynamicModalChart(17, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="mth-18 context-menu"
+    hasTitle="true" [chartID]=18
+    (click)="createDynamicModalChart(18, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="mth-19 context-menu"
+    hasTitle="true" [chartID]=19
+    (click)="createDynamicModalChart(19, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="mth-20 context-menu"
+    hasTitle="true" [chartID]=20
+    (click)="createDynamicModalChart(20, '')">
+  </chart-skill-time>
+
+  <!-- Other Programming -->
+  <chart-skill-time componentClass="otp-12 context-menu"
+    hasTitle="true" [chartID]=12
+    (click)="createDynamicModalChart(12, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="otp-13 context-menu"
+    hasTitle="true" [chartID]=13
+    (click)="createDynamicModalChart(13, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="otp-14 context-menu"
+    hasTitle="true" [chartID]=14
+    (click)="createDynamicModalChart(14, '')">
+  </chart-skill-time>
+  <chart-skill-time componentClass="otp-15 context-menu"
+    hasTitle="true" [chartID]=15
+    (click)="createDynamicModalChart(15, '')">
+  </chart-skill-time>
+
+</div>
+
+<!-- Modals -->
+<dynamic-modal [componentData]="ps.getComponentData()"></dynamic-modal>

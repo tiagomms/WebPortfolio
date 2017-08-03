@@ -1,0 +1,57 @@
+<modal id="modalChart">
+    <div class="modal fade">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title pull-left">{{chartInfo.name}} Experience 
+            <a *ngIf="chartInfo.urlName" [routerLink]="['/portfolio',
+            setUrlCorrectly(chartInfo.urlName)]" routerLinkActive="active">
+              (go to Page)</a>
+            </h4>
+            <button (click)="closeModalChart();"
+              type="button" class="close pull-right" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div style="margin:0 20px">
+              <written-events-on-timeline componentClass="" 
+                isUpperAxis="true" [pageID]="getPageIDIfNotChart(pageID)">
+              </written-events-on-timeline>
+
+              <chart-skill-time componentClass="" heightNotSaved="true" 
+                hasTitle="false" [chartID]="chartID" isMoreRelevant="true"
+                [pageID]="getPageIDIfNotChart(pageID)">
+              </chart-skill-time>
+
+              <project-timeline-chart componentClass="" 
+                timelineType="projects"
+                [thisID]="setChartIdOnProjectTimeline(chartID)"
+                [pageID]="getPageIDIfNotChart(pageID)">
+              </project-timeline-chart>
+              <project-timeline-chart componentClass="" 
+                timelineType="educations"
+                [thisID]="setChartIdOnProjectTimeline(chartID)"
+                [pageID]="getPageIDIfNotChart(pageID)">
+              </project-timeline-chart>
+
+              <portfolio-project-links 
+                projectsTitle="Related Projects"
+                toSplit="true"
+                [pageID]="setChartIdOnProjectTimeline(chartID)">
+              </portfolio-project-links>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div style="margin:0 20px">
+              <written-events-on-timeline componentClass="" 
+              isTimelineAxis="true" [pageID]="getPageIDIfNotChart(pageID)">
+              </written-events-on-timeline>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-background"></div>
+</modal>
+
