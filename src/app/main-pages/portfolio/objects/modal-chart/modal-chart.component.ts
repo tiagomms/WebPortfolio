@@ -34,6 +34,11 @@ export class ModalChartComponent implements OnInit {
     return pageID.indexOf('charts') == -1 ? pageID : void 0;
   }
 
+  getModalChartTitle(): string { 
+    let title = this.chartInfo.name;
+    title += (this.chartID != "21" ? " Experience" : "");
+    return title;
+  }
   setUrlCorrectly(url: string) { return url; }
 
   openModalChart(){ this.modalService.open('modalChart'); }
