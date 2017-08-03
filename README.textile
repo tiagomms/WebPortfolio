@@ -1,4 +1,4 @@
-# tiagomms.github.io
+# tiagomms.github.io (DIST folder)
 My Web Portfolio from September 2009 (when I started university) until August 2017
 
 Layout design:
