@@ -3,6 +3,7 @@ import { Component, ElementRef,
   OnDestroy, OnInit, AfterViewInit,
   Input,
   HostBinding, HostListener } from '@angular/core';
+import { Router }            from '@angular/router';
 import { Location }               from '@angular/common';
 
 import { Subject }    from 'rxjs/Subject';
@@ -63,7 +64,9 @@ export class ProjectTimelineChartComponent implements OnInit,AfterViewInit,OnDes
   }
 
   constructor(element: ElementRef, d3Service: D3Service,
-    public portfolioService: PortfolioService, private location: Location) { 
+    public portfolioService: PortfolioService,
+    private router: Router,
+    private location: Location) { 
 
     this.d3 = d3Service.getD3(); 
     this.parentNativeElement = element.nativeElement;
@@ -107,6 +110,8 @@ export class ProjectTimelineChartComponent implements OnInit,AfterViewInit,OnDes
 
     let isMainPage: boolean = this.isMainPage == 'true';
     let hasNotMarginLeft: boolean = this.hasNotMarginLeft == 'true';
+
+    let router = this.router;
 
     /*
      * currentCntDatesOverlap returns true if the comparison startDate 
@@ -250,15 +255,9 @@ export class ProjectTimelineChartComponent implements OnInit,AfterViewInit,OnDes
         .attr('transform', 'translate('+ margin.left +','+ margin.top +')')
 
         .append<SVGAElement>('a')
-          .attr('xlink:href', function(d) {
-            if (!d[6])
-              return '/portfolio/' + d[5];
-            return;
-          })
-          .classed('disabled', function(d) { return d[6]; })
-
           //interactivity - link connected to this chart line 'hovered'
           // class 'hover' was created for this purpose
+          .classed('disabled', function(d) { return d[6]; })
           .attr('data-hover', function(d) { return 'line' +timelineType+ d[0]; })
           .on('mouseover', function(d) {
             d3.selectAll('[data-hover="link' +timelineType+ d[0] + '"]')
@@ -273,7 +272,14 @@ export class ProjectTimelineChartComponent implements OnInit,AfterViewInit,OnDes
                 if (this)
                   d3.select(this).classed('hover', false);
               });
-          });
+          })
+          // click to routerLink
+          .on('click', function (d) {
+            d3.event.stopPropagation();
+            if (!d[6])
+              router.navigate(['/portfolio', d[5]]);
+          })
+
 
       d3TimelineLines.append<SVGRectElement>('rect')
         .attr('x', function(d) { return x(d[2]); })
