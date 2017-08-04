@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from '../../services/portfolio.service';
 
 @Component({
   selector: 'portfolio-explained',
@@ -30,6 +31,6 @@ export class PortfolioExplainedComponent implements OnInit {
     return "/assets/img/portfolio explained/" + name + ".png";
   }
 
-  constructor() { }
+  constructor(public ps: PortfolioService) { }
   ngOnInit() { }
 }
