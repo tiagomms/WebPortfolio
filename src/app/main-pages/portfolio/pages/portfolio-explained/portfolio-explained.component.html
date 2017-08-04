@@ -69,21 +69,23 @@
       When clicked, each of these charts are zoomed in through a modal window.
       On top of the modal window, there is a link for a page describing the sum of the corresponding experience.
     </p>
+    <span class="pEG__notes">
+      <a class="zoom-in" (click)="createDynamicModalImage(img3)">
+        <img [lazyLoad]="getImgByName(img3.name)"
+        [offset]="ps.getImgOffset('notes')"/>
+      </a>
+      <br/>
+      <br/>
+      *In these pages' modal windows, a link is displayed only for the main skills (Web Programming, Design, Education, Mathematics, Other Programming) and Inner Consciousness.
+    </span>
     <h3 style="margin: 2.0em 0 0.6em 0">All Other Portfolio Pages</h3>
     <p>
       I divided these pages in 4 sections: timeline, description, notes and related skills. On the timeline section, the timeline chart is displayed. This chart is similar to the one on the main page, but contains only projects/education/working/volunteering experiences related to the page’s subject. The description and notes hold the information about the page’s theme. The related skills section displays all related skills and their charts.
     </p>
     <p>
       Across each chart, there are 2 thicker vertical lines to depict the start and end dates of each experience. 
-
-      <span class="pEG__notes">
-        *In these pages' modal windows, a link is displayed only for the main skills (Web Programming, Design, Education, Mathematics, Other Programming) and Inner Consciousness.
-      </span>
       <br/>
       When clicked, all charts are zoomed in through a modal window.
-    </p>
-    <p>
-      
     </p>
 
     <h3 style="margin: 2.0em 0 0.6em 0">Additional Functionalities</h3>
@@ -96,3 +98,4 @@
 
   </div>
 </div>
+<dynamic-modal [componentData]="ps.getComponentData()"></dynamic-modal>

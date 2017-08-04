@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from '../../services/portfolio.service';
+import { ModalImageComponent } from '../../objects/modal-image/modal-image.component';
+import { DynamicModalComponent } from 'app/app-objects/dynamic-modal/dynamic-modal.component';
 
 @Component({
   selector: 'portfolio-explained',
@@ -27,10 +29,27 @@ export class PortfolioExplainedComponent implements OnInit {
     `
   };
 
+  img3 = {
+    name: 'other-page-example',
+    caption: `
+    A Portfolio Page with the 4 sections highlighted
+    `
+  };
   getImgByName(name: string) {
     return "/assets/img/portfolio explained/" + name + ".png";
   }
 
   constructor(public ps: PortfolioService) { }
   ngOnInit() { }
+
+  createDynamicModalImage(imgDetails) {
+    let data = {
+      component: ModalImageComponent,
+      inputs: { 
+        imgFullPath: this.getImgByName(imgDetails.name),
+        imgCaption: imgDetails.caption
+      }
+    };
+    this.ps.setComponentData(data);
+  }
 }
