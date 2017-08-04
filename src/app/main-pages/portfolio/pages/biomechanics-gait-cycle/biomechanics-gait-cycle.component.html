@@ -8,7 +8,8 @@ The workgroup was comprised of 4 students. I worked as group leader and MatLab l
 <div class="image-flex-row" style="height: 300px; margin-top: 30px;">
   <a class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img0.name)"
+    [offset]="ps.getImgOffset('singleImage')"/>
     <div style="margin-top: 10px;">{{img0.caption}}</div>
   </a>
 </div>

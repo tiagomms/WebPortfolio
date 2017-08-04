@@ -17,7 +17,8 @@ Between June 2012 and October 2013, our supervisor
 <span class="portfolioNotes talign-center"> 
   <a class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img0.name)"
+    [offset]="ps.getImgOffset('notes')"/>
     <div style="margin-top: 10px;">{{img0.caption}}</div>
   </a>
 </span>

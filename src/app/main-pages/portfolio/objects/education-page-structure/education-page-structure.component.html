@@ -29,14 +29,11 @@
 
 <!-- BODY -->
 <div *ngIf="pageID" class="educationPageMainGrid">
-  <!--
-    [class.educationPageMainGrid]="pageID?.indexOf('charts') == -1"
-    [class.skillPageMainGrid]="pageID?.indexOf('charts') != -1" >
-  -->
   <!-- MAIN -->
   <div class="ed__page-image" *ngFor="let i of dynamicArray">
     <img *ngIf="pageID.indexOf('charts') == -1" 
-      [src]="getImgTheme()" style="max-height:120px; margin-bottom: 10px;"/>
+      [lazyLoad]="getImgTheme()" [offset]="themeOffset"
+      style="max-height:120px; margin-bottom: 10px;"/>
 
     <a *ngIf="pageID.indexOf('charts') != -1"
       class="context-menu fullWidth" 

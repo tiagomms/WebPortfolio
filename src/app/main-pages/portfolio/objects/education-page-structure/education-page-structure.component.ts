@@ -32,6 +32,7 @@ export class EducationPageStructureComponent implements OnInit {
 
   isPageLoaded: boolean = false;
   currentPageID: string = "";
+  themeOffset: number = 120;
 
   constructor(
     public portfolioService: PortfolioService,

@@ -1,5 +1,6 @@
 <span class="portfolioNotes">
-    <img [src]="ps.getImgByName(img2.name)" />
+    <img [lazyLoad]="ps.getImgByName(img2.name)"
+    [offset]="ps.getImgOffset('notes')"/>
 </span>
 <p>
   Developed at IST Lisbon (October 2012 - January 2013) for the module Instrumentation 
@@ -27,12 +28,14 @@
 <div class="image-flex-row" style="height: 200px; margin-top: 30px;">
   <a style="margin: 0 10px 0 0 " class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img0.name)"
+    [offset]="ps.getImgOffset('flexRow')"/>
     <div style="margin-top: 10px;">{{img0.caption}}</div>
   </a>
   <a style="margin: 0 0 0 10px" class="zoom-in"
     (click)="createDynamicModalImage(img1)">
-    <img [src]="ps.getImgByName(img1.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img1.name)" 
+    [offset]="ps.getImgOffset('flexRow')"/>
     <div style="margin-top: 10px;">{{img1.caption}}</div>
   </a>
 </div>

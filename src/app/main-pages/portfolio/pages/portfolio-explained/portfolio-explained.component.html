@@ -40,13 +40,15 @@
 
     <h3 style="margin: 2.0em 0 0.6em 0">Portfolio Main Page</h3>
     <span class="pEG__notes">
-      <img [src]=getImgByName(img1.name)/>
+      <img [lazyLoad]="ps.getImgByName(img1.name)"
+      [offset]="ps.getImgOffset('notes')">
     </span>
     <p>
       A timeline is displayed on top, with the projects and education/work locations’ description on the right side. Each line corresponds to a project/education/working/volunteering experience and it is represented by the color and character displayed on the links menu. Each coloured line and corresponding description are links for the project/education/working/volunteering experience’s page.
     </p>
     <div class="single-image" style="margin: 2.0em 0">
-      <img [src]=getImgByName(img0.name)/>
+      <img [lazyLoad]="ps.getImgByName(img0.name)"
+      [offset]="ps.getImgOffset('notes')">
     </div>
     <p>
       Descriptions of major events are displayed throughout the timeline in chronological order, with a vertical line crossing them. These lines are present in all charts, marking each event’s time period. 
@@ -57,7 +59,9 @@
       Additionally, I included an ‘Inner Consciousness’ chart to complement the descriptions of what I have done with how I felt at the time, using 'clarity' (in purple) and happiness (in light green) as indicators.
     </p>
     <div class="single-image" style="margin: 2.0em 0">
-      <img [src]=getImgByName(img2.name) style="margin-bottom: 1.0em;"/>
+      <img [lazyLoad]="ps.getImgByName(img2.name)"
+      [offset]="ps.getImgOffset('singleImage')"
+      style="margin-bottom: 1.0em;"/>
       <div >{{img2.caption}}</div>
     </div>
 

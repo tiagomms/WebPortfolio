@@ -4,7 +4,9 @@ This page’s goal is to complement the descriptions of what I have done with ho
   *This cartoon is quite good at explaining happiness.
   <a class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)" style="margin-top: 20px"/>
+    <img [lazyLoad]="ps.getImgByName(img0.name)"
+    [offset]="ps.getImgOffset('notes')"
+    style="margin-top: 20px"/>
   </a>
 </span>
 

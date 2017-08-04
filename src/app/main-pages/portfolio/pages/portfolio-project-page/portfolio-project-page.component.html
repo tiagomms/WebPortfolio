@@ -20,7 +20,8 @@ All design, code and text were carried out by me. I thank my sister, Catarina Si
 <div class="single-image" style="margin: 30px 0 20px 0;">
   <a class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)"/>
+      <img [lazyLoad]="ps.getImgByName(img0.name)"
+      [offset]="ps.getImgOffset('singleImage')">
     <div style="margin-top: 10px;">{{img0.caption}}</div>
   </a>
 </div>

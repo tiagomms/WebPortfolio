@@ -53,6 +53,12 @@ export class PortfolioService {
 
   private componentData;
 
+  private imgOffset = {
+    notes: 170,
+    flexRow: 200,
+    singleImage: 250
+  };
+
   constructor(private http: Http, d3Service: D3Service,
     private modalService: ModalService) {
     this.d3 = d3Service.getD3(); 
@@ -61,6 +67,10 @@ export class PortfolioService {
   public getAlertHasAppeared(): boolean { return this.alertHasAppeared; }
   public setAlertHasAppeared(value: boolean): void {
     this.alertHasAppeared = value;
+  }
+
+  public getImgOffset(name: string): number {
+    return this.imgOffset[name];
   }
 
   private resetModals() {

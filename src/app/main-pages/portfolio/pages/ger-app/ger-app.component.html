@@ -21,14 +21,17 @@ From that moment on, I was able to design and develop infographics in D3 to comp
     
   <a class="zoom-in"
     (click)="createDynamicModalImage(img1)">
-    <img [src]="ps.getImgByName(img1.name)" style="margin: 20px 0 80px 0"/>
+    <img [lazyLoad]="ps.getImgByName(img1.name)"
+    [offset]="ps.getImgOffset('notes')" style="margin: 20px 0 80px 0"/>
   </a>
     <a class="zoom-in"
     (click)="createDynamicModalImage(img2)">
-    <img [src]="ps.getImgByName(img2.name)" style="margin-bottom: 80px"/>
+    <img [lazyLoad]="ps.getImgByName(img2.name)"
+    [offset]="ps.getImgOffset('notes')" style="margin-bottom: 80px"/>
   </a>  <a class="zoom-in"
     (click)="createDynamicModalImage(img3)">
-    <img [src]="ps.getImgByName(img3.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img3.name)"
+    [offset]="ps.getImgOffset('notes')"/>
   </a>
 </span>
 
@@ -43,7 +46,8 @@ These infographics enabled doctors to check their patients’ evolution status a
 <div class="single-image" style="margin: 30px 0;">
   <a class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img0.name)"
+    [offset]="ps.getImgOffset('singleImage')"/>
     <div style="margin-top: 10px;">{{img0.caption}}</div>
   </a>
 </div>

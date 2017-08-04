@@ -9,6 +9,7 @@ import { D3Service } from 'd3-ng2-service';
 import * as $ from 'jquery';
 import * as _ from 'underscore'
 import { AlertModule } from 'ngx-bootstrap';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 // App routings
 import { AppRoutingModule } from './app-routing.module';
@@ -23,14 +24,6 @@ import { PortfolioProjectLinksComponent } from './main-pages/portfolio/objects/p
 import { ProjectTimelineChartComponent } from './main-pages/portfolio/objects/project-timeline-chart/project-timeline-chart.component';
 import { WrittenEventsOnTimelineComponent } from './main-pages/portfolio/objects/written-events-on-timeline/written-events-on-timeline.component';
 import { DetailedSkillsComponent } from './main-pages/portfolio/pages/detailed-skills/detailed-skills.component';
-
-// Directives
-import { ModalComponent } from './app-directives/modal/modal.component';
-
-// Services
-import { PortfolioService } from './main-pages/portfolio/services/portfolio.service';
-import { ModalService } from './app-services/modal.service';
-
 import { ChartSkillTimeComponent } from './main-pages/portfolio/objects/chart-skill-time/chart-skill-time.component';
 import { EducationPageStructureComponent } from './main-pages/portfolio/objects/education-page-structure/education-page-structure.component';
 import { ModalChartComponent } from './main-pages/portfolio/objects/modal-chart/modal-chart.component';
@@ -57,6 +50,13 @@ import { OtherProgrammingXpComponent } from './main-pages/portfolio/pages/other-
 import { InnerConsciousnessComponent } from './main-pages/portfolio/pages/inner-consciousness/inner-consciousness.component';
 import { PortfolioExplainedComponent } from './main-pages/portfolio/pages/portfolio-explained/portfolio-explained.component';
 import { AlertCssComponent } from './app-objects/alert-css/alert-css.component';
+
+// Directives
+import { ModalComponent } from './app-directives/modal/modal.component';
+
+// Services
+import { PortfolioService } from './main-pages/portfolio/services/portfolio.service';
+import { ModalService } from './app-services/modal.service';
 
 @NgModule({
   declarations: [
@@ -101,7 +101,8 @@ import { AlertCssComponent } from './app-objects/alert-css/alert-css.component';
     BrowserModule,
     HttpModule,
     AppRoutingModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(),
+    LazyLoadImageModule,
   ],
   providers:    [ D3Service, PortfolioService, ModalService ],
   bootstrap: [AppComponent]

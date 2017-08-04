@@ -28,7 +28,8 @@ On this project I was supervised and counselled by Dr. James Stanfield and Dr. S
 <div class="image-flex-row" style="height: 220px; margin-top: 30px;">
   <a class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img0.name)"
+     [offset]="ps.getImgOffset('flexRow')">
     <div style="margin-top: 10px;">{{img0.caption}}</div>
   </a>
 </div>

@@ -1,5 +1,3 @@
-
-
 <p>
 <a href="http://www.gastagus.org" target="_blank">GASTagus</a> is a volunteer organisation based in Lisbon focused on training university students and recent graduates for social change and volunteering, through activities, 
 <span class="portfolioNotes color-project">
@@ -15,7 +13,8 @@ On my first year (November 2009 - July 2010), I completed General Training for I
 <span class="portfolioNotes talign-center"> 
   <a class="zoom-in"
     (click)="createDynamicModalImage(img0)">
-    <img [src]="ps.getImgByName(img0.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img0.name)"
+    [offset]="ps.getImgOffset('notes')"/>
     <div style="margin-top: 10px;">{{img0.caption}}</div>
   </a>
 </span>
@@ -38,7 +37,8 @@ This volunteer work was carried out alongside the BSc in Biomedical Engineering 
 
   <a class="zoom-in"
     (click)="createDynamicModalImage(img1)">
-    <img [src]="ps.getImgByName(img1.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img1.name)"
+    [offset]="ps.getImgOffset('singleImage')"/>
     <div style="margin-top: 10px;">{{img1.caption}}</div>
   </a>
 </div>
@@ -46,7 +46,8 @@ This volunteer work was carried out alongside the BSc in Biomedical Engineering 
 <div class="single-image" style="margin: 30px 0 20px 0;">
   <a class="zoom-in"
     (click)="createDynamicModalImage(img2)">
-    <img [src]="ps.getImgByName(img2.name)"/>
+    <img [lazyLoad]="ps.getImgByName(img2.name)"
+    [offset]="ps.getImgOffset('singleImage')"/>
     <div style="margin-top: 10px;">{{img2.caption}}</div>
   </a>
 </div>
