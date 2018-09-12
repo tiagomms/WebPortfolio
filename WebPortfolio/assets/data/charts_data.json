@@ -1,0 +1,2952 @@
+{
+    "charts": [
+        {
+            "id": 0,
+            "values": [
+                {
+                    "date": "2015-01-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2016-02-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-03-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-10-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-11-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 1,
+            "values": [
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-10-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 2,
+            "values": [
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 3,
+            "values": [
+                {
+                    "date": "2015-01-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-10-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "values": [
+                {
+                    "date": "2015-11-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2016-10-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-11-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 3
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 5,
+            "values": [
+                {
+                    "date": "2015-01-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2016-02-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-03-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-10-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-11-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "values": [
+                {
+                    "date": "2010-08-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2010-11-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-12-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-01-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-02-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-03-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-05-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-07-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-11-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-12-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2012-01-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2012-02-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2012-03-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2012-04-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2013-09-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2013-10-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2013-11-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2013-12-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2014-01-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2014-02-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2014-03-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-05-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-08-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-10-01",
+                    "details": {
+                        "complexity": 11,
+                        "motivation": 11
+                    }
+                },
+                {
+                    "date": "2015-02-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 7,
+            "values": [
+                {
+                    "date": "2013-09-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2013-10-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2013-11-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2013-12-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2014-01-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2014-02-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2014-03-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-04-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-05-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-08-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-10-01",
+                    "details": {
+                        "complexity": 11,
+                        "motivation": 11
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 8,
+            "values": [
+                {
+                    "date": "2014-02-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2014-03-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-08-01",
+                    "details": {
+                        "complexity": 11,
+                        "motivation": 11
+                    }
+                },
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-10-01",
+                    "details": {
+                        "complexity": 11,
+                        "motivation": 11
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 9,
+            "values": [
+                {
+                    "date": "2010-08-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2010-11-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2010-12-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-01-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-02-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-03-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-05-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-07-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-11-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2011-12-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2012-01-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2012-02-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2012-03-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2012-04-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2014-03-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-04-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-05-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-06-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2015-02-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 10,
+            "values": [
+                {
+                    "date": "2014-03-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-06-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-03-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 11,
+            "values": [
+                {
+                    "date": "2016-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-03-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 11
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 11
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 11
+                    }
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "values": [
+                {
+                    "date": "2009-09-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2009-10-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2009-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2009-12-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-01-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2010-09-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2010-10-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2010-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2010-12-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-01-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2012-04-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2012-05-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-06-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-09-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-11-01",
+                    "details": {
+                        "complexity": 11,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2012-12-01",
+                    "details": {
+                        "complexity": 11,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2013-08-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2014-12-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-01-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-03-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-04-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-05-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2015-06-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-11-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 7
+                    }
+                }
+            ]   
+        },
+        {
+            "id": 13,
+            "values": [
+                {
+                    "date": "2012-04-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2012-05-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-06-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2014-12-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-01-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2015-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-03-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-04-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-05-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 4
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 14,
+            "values": [
+                {
+                    "date": "2010-09-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2010-10-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2010-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2010-12-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-01-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2012-06-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-09-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-11-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2012-12-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2013-08-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 7
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 15,
+            "values": [
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 16,
+            "values": [
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2015-01-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-06-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-11-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 6
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 17,
+            "values": [
+                {
+                    "date": "2009-09-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2009-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2009-11-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2009-12-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2010-01-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2010-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2010-03-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-06-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-07-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-09-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2010-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2010-11-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-12-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-01-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-02-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2011-03-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2011-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-06-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2011-07-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2011-09-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2011-10-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2011-11-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2011-12-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-01-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-03-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-04-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-05-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-06-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-09-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-11-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-12-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-08-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2014-05-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-06-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 10
+                    }
+                },
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2014-11-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2014-12-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-01-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-02-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-03-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2015-04-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-05-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2015-06-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2015-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2016-10-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 9
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 9
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 18,
+            "values": [
+                {
+                    "date": "2009-09-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2009-10-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2009-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2009-12-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2010-01-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2010-09-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2010-10-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2010-11-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2010-12-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-01-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2012-04-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2012-05-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-06-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-09-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-11-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2012-12-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-02-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "details": {
+                        "complexity": 9,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2013-08-01",
+                    "details": {
+                        "complexity": 10,
+                        "motivation": 7
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 19,
+            "values": [
+                {
+                    "date": "2011-03-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2011-04-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2011-05-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2011-06-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2012-05-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-06-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-09-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-10-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-11-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2012-12-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-02-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-04-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-08-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 4
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 20,
+            "values": [
+                {
+                    "date": "2012-09-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-10-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-11-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2012-12-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-02-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2013-08-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 7
+                    }
+                }
+            ]
+            
+        },
+        {
+            "id": 21,
+            "values": [
+                {
+                    "date": "2009-11-01",
+                    "details": {
+                        "complexity": 1,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2009-12-01",
+                    "details": {
+                        "complexity": 1,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2010-01-01",
+                    "details": {
+                        "complexity": 1,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2010-02-01",
+                    "details": {
+                        "complexity": 1,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2010-03-01",
+                    "details": {
+                        "complexity": 1,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2010-04-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2010-05-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2010-06-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2010-07-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2010-08-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2010-11-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2010-12-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-01-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-02-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-03-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-04-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-05-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-06-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2011-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2011-11-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2011-12-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-01-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-02-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-03-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2012-04-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2012-08-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2012-11-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2012-12-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-01-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-02-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-03-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-04-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-05-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2013-06-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2013-07-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2013-08-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2014-03-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 4
+                    }
+                },
+                {
+                    "date": "2014-06-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2014-07-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2014-08-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2014-09-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2014-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2015-06-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2015-07-01",
+                    "details": {
+                        "complexity": 3,
+                        "motivation": 3
+                    }
+                },
+                {
+                    "date": "2015-08-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2015-09-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 2
+                    }
+                },
+                {
+                    "date": "2015-10-01",
+                    "details": {
+                        "complexity": 2,
+                        "motivation": 1
+                    }
+                },
+                {
+                    "date": "2015-12-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-01-01",
+                    "details": {
+                        "complexity": 4,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-02-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-03-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-04-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-05-01",
+                    "details": {
+                        "complexity": 5,
+                        "motivation": 5
+                    }
+                },
+                {
+                    "date": "2016-06-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-07-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-08-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-09-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-10-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-11-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2016-12-01",
+                    "details": {
+                        "complexity": 6,
+                        "motivation": 6
+                    }
+                },
+                {
+                    "date": "2017-01-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2017-02-01",
+                    "details": {
+                        "complexity": 7,
+                        "motivation": 7
+                    }
+                },
+                {
+                    "date": "2017-03-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2017-04-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2017-05-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2017-06-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                },
+                {
+                    "date": "2017-07-01",
+                    "details": {
+                        "complexity": 8,
+                        "motivation": 8
+                    }
+                }
+            ]     
+        }
+    ]
+}
