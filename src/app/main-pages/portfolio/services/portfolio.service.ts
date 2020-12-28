@@ -94,11 +94,11 @@ export class PortfolioService {
 
   //once all photos are in place insert this
   public getImgTheme() {
-    return "/assets/img/" + this.portfolioPageID + "/theme.png";
+    return "/WebPortfolio/assets/img/" + this.portfolioPageID + "/theme.png";
   }
 
   public getImgByName(name: string) {
-    return "/assets/img/" + this.portfolioPageID + "/" + name + ".png";
+    return "/WebPortfolio/assets/img/" + this.portfolioPageID + "/" + name + ".png";
   }
 
   public getWholeDateInterval(): [Date, Date] { return this.wholeDateInterval; }
