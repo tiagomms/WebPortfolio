@@ -36,7 +36,7 @@ export class PortfolioExplainedComponent implements OnInit {
     `
   };
   getImgByName(name: string) {
-    return "/assets/img/portfolio explained/" + name + ".png";
+    return "WebPortfolio/assets/img/portfolio explained/" + name + ".png";
   }
 
   constructor(public ps: PortfolioService) { }
