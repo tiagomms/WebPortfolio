@@ -40,4 +40,4 @@ Transition to ghpages:
 ## Notes on update from May 2023:
 - This project will only *npm install* and *build* in Linux/Mac interfaces. There is a bug on node-sass internal dependencies for Windows in this version - I tried multiple things over days, and kinda just gave up.
 - Do not perform *npm audit fix*. Some frameworks were not well developed at the time, and just "accept" any version. New versions of these internal dependencies just crash the install.
-- For the same reason, do not delete node_modules or package-lock.json.
+- For the same reason, do not delete the original package-lock.json.
